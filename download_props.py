@@ -74,7 +74,7 @@ ENDPOINTS = [
     ("magnetism", "batch", None),
     ("oxidation_states", "batch", None),
     ("chemenv", "batch", None),
-    ("provenance", "batch", None),
+    ("provenance", "batch", {"database_IDs"}),  # database_IDs 含 'pauling' 触发本地 emmet 校验错误
     ("bonds", "batch", {"structure_graph"}),
     ("absorption", "batch", None),
     ("surface_properties", "batch", None),
