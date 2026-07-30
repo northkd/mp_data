@@ -1,0 +1,804 @@
+{
+  "theoretical": false,
+  "database_IDs": {
+    "icsd": [
+      "icsd-166610"
+    ],
+    "pauling": [
+      "pf-41478"
+    ]
+  },
+  "possible_species": [
+    "Na+",
+    "Fe3+",
+    "Mo6+",
+    "O2-"
+  ],
+  "weighted_surface_energy_EV_PER_ANG2": null,
+  "weighted_surface_energy": null,
+  "weighted_work_function": null,
+  "surface_anisotropy": null,
+  "shape_factor": null,
+  "has_reconstructed": null,
+  "e_ij_max": null,
+  "e_total": null,
+  "e_ionic": null,
+  "e_electronic": null,
+  "n": null,
+  "bulk_modulus": null,
+  "shear_modulus": null,
+  "universal_anisotropy": null,
+  "homogeneous_poisson": null,
+  "is_magnetic": true,
+  "ordering": "AFM",
+  "total_magnetization": 0.0,
+  "total_magnetization_normalized_vol": 0.0,
+  "total_magnetization_normalized_formula_units": 0.0,
+  "num_magnetic_sites": 6,
+  "num_unique_magnetic_sites": 6,
+  "types_of_magnetic_species": [
+    "Fe",
+    "Mo"
+  ],
+  "dos_energy_up": 2.7932286487372973,
+  "dos_energy_down": 2.126208086390747,
+  "band_gap": 2.1186,
+  "cbm": 1.3366,
+  "vbm": -0.782,
+  "efermi": -0.70019765,
+  "is_gap_direct": false,
+  "is_metal": false,
+  "uncorrected_energy_per_atom": -6.719560103333333,
+  "energy_per_atom": -7.899226770000001,
+  "formation_energy_per_atom": -1.975332582614944,
+  "energy_above_hull": 0.0038799618749996156,
+  "is_stable": false,
+  "equilibrium_reaction_energy_per_atom": null,
+  "decomposes_to": [
+    {
+      "material_id": "mp-bdga",
+      "formula": "Na8 Mo8 O28",
+      "amount": 0.4583333333333339
+    },
+    {
+      "material_id": "mp-bdgk",
+      "formula": "Fe4 O6",
+      "amount": 0.06944444444444464
+    },
+    {
+      "material_id": "mp-bglh",
+      "formula": "Fe8 Mo12 O48",
+      "amount": 0.47222222222222143
+    }
+  ],
+  "builder_meta": {
+    "emmet_version": "0.87.0rc10",
+    "pymatgen_version": "2026.5.18",
+    "run_id": "d47a5163-9b2d-4bd7-a183-2859445585fa",
+    "batch_id": "magnetic-orderings-oxides",
+    "database_version": "2026.04.13",
+    "build_date": "2026-06-05T01:28:45.888000Z",
+    "license": "BY-C"
+  },
+  "nsites": 24,
+  "elements": [
+    "Fe",
+    "Mo",
+    "Na",
+    "O"
+  ],
+  "nelements": 4,
+  "composition": {
+    "Na": 2.0,
+    "Fe": 2.0,
+    "Mo": 4.0,
+    "O": 16.0
+  },
+  "composition_reduced": {
+    "Na": 1.0,
+    "Fe": 1.0,
+    "Mo": 2.0,
+    "O": 8.0
+  },
+  "formula_pretty": "NaFe(MoO4)2",
+  "formula_anonymous": "ABC2D8",
+  "chemsys": "Fe-Mo-Na-O",
+  "volume": 378.40709946501926,
+  "density": 3.499265643236359,
+  "density_atomic": 15.766962477709136,
+  "symmetry": {
+    "crystal_system": "Monoclinic",
+    "symbol": "C2/c",
+    "hall": "-C 2yc",
+    "number": 15,
+    "point_group": "2/m",
+    "symprec": 0.1,
+    "angle_tolerance": 5.0,
+    "version": "2.7.0"
+  },
+  "material_id": "mp-cpttb",
+  "deprecated": false,
+  "deprecation_reasons": null,
+  "last_updated": "2022-06-11T11:39:41.081000Z",
+  "origins": [
+    {
+      "name": "structure",
+      "task_id": "cxcrv",
+      "last_updated": "2020-04-29T05:01:15.704000Z"
+    },
+    {
+      "name": "setyawan_curtarolo",
+      "task_id": "dniuz",
+      "last_updated": "2021-02-23T22:27:44.057000Z"
+    },
+    {
+      "name": "hinuma",
+      "task_id": "etmwb",
+      "last_updated": "2021-07-23T00:57:50.781000Z"
+    },
+    {
+      "name": "latimer_munro",
+      "task_id": "fbttk",
+      "last_updated": "2022-06-11T11:39:41.081000Z"
+    },
+    {
+      "name": "dos",
+      "task_id": "drice",
+      "last_updated": "2020-07-15T02:13:44.330000Z"
+    },
+    {
+      "name": "electronic_structure",
+      "task_id": "fbttk",
+      "last_updated": "2022-06-11T11:39:41.081000Z"
+    },
+    {
+      "name": "magnetism",
+      "task_id": "cxcrv",
+      "last_updated": "2020-04-29T05:01:15.704000Z"
+    },
+    {
+      "name": "energy",
+      "task_id": "cxcrv",
+      "last_updated": "2026-05-30T05:45:03.745000Z"
+    }
+  ],
+  "warnings": [],
+  "structure": {
+    "@module": "pymatgen.core.structure",
+    "@class": "Structure",
+    "charge": 0.0,
+    "lattice": {
+      "matrix": [
+        [
+          0.00022,
+          -5.393481,
+          -0.000271
+        ],
+        [
+          -5.010679,
+          2.696945,
+          0.018612
+        ],
+        [
+          -0.047801,
+          -0.000707,
+          -14.002243
+        ]
+      ],
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "a": 5.3934810112952105,
+      "b": 5.690409719924392,
+      "c": 14.002324609381795,
+      "alpha": 90.01653964006206,
+      "beta": 89.9942361638742,
+      "gamma": 118.29307207540751,
+      "volume": 378.40709946501926
+    },
+    "properties": {},
+    "sites": [
+      {
+        "species": [
+          {
+            "element": "Na",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.926926,
+          0.999939,
+          0.249986
+        ],
+        "properties": {
+          "magmom": -0.0
+        },
+        "label": "Na",
+        "xyz": [
+          -5.022119005647,
+          -2.302754023153001,
+          -3.482005050876
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Na",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.07298,
+          7.9e-05,
+          0.750019
+        ],
+        "properties": {
+          "magmom": -0.0
+        },
+        "label": "Na",
+        "xyz": [
+          -0.03623144626000001,
+          -0.3939334481580001,
+          -10.501966599849
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Fe",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          2.9e-05,
+          0.999927,
+          0.999861
+        ],
+        "properties": {
+          "magmom": -4.364
+        },
+        "label": "Fe",
+        "xyz": [
+          -5.058107569714,
+          2.695884810339,
+          -13.981686054757999
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Fe",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          7e-05,
+          2.1e-05,
+          0.500144
+        ],
+        "properties": {
+          "magmom": 4.364
+        },
+        "label": "Fe",
+        "xyz": [
+          -0.024012592203,
+          -0.0006745096330000001,
+          -7.003137451110001
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Mo",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.70736,
+          0.348221,
+          0.617783
+        ],
+        "properties": {
+          "magmom": 0.068
+        },
+        "label": "Mo",
+        "xyz": [
+          -1.7741986780419998,
+          -2.876436607896,
+          -8.644058292576998
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Mo",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.359274,
+          0.651902,
+          0.882239
+        ],
+        "properties": {
+          "magmom": -0.068
+        },
+        "label": "Mo",
+        "xyz": [
+          -3.3085645276169995,
+          -0.18021739637700018,
+          -12.341289025307
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Mo",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.292711,
+          0.651885,
+          0.382378
+        ],
+        "properties": {
+          "magmom": 0.068
+        },
+        "label": "Mo",
+        "xyz": [
+          -3.284600134273,
+          0.17909643308800005,
+          -5.342096114915
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Mo",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.640724,
+          0.347983,
+          0.117595
+        ],
+        "properties": {
+          "magmom": -0.068
+        },
+        "label": "Mo",
+        "xyz": [
+          -1.749111309772,
+          -2.5173248479740002,
+          -1.6402907421930002
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.589214,
+          0.800504,
+          0.461349
+        ],
+        "properties": {
+          "magmom": 0.065
+        },
+        "label": "O",
+        "xyz": [
+          -4.032991898684999,
+          -1.0193254273969998,
+          -6.445181502353001
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.78866,
+          0.199415,
+          0.038618
+        ],
+        "properties": {
+          "magmom": -0.065
+        },
+        "label": "O",
+        "xyz": [
+          -1.000877026603,
+          -3.7158387412110008,
+          -0.537240835054
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.411016,
+          0.19967,
+          0.53874
+        ],
+        "properties": {
+          "magmom": 0.065
+        },
+        "label": "O",
+        "xyz": [
+          -1.02614416315,
+          -1.6786888677260001,
+          -7.539963521116
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.211416,
+          0.800412,
+          0.961287
+        ],
+        "properties": {
+          "magmom": -0.065
+        },
+        "label": "O",
+        "xyz": [
+          -4.056511568115,
+          1.017719332335,
+          -13.445334192333
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.059921,
+          0.305921,
+          0.415455
+        ],
+        "properties": {
+          "magmom": 0.064
+        },
+        "label": "O",
+        "xyz": [
+          -1.552717912194,
+          0.501575609659,
+          -5.811624302504001
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.753838,
+          0.693943,
+          0.084526
+        ],
+        "properties": {
+          "magmom": -0.064
+        },
+        "label": "O",
+        "xyz": [
+          -3.481000200263,
+          -2.1943445858250006,
+          -1.1708422148
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.940237,
+          0.694236,
+          0.584779
+        ],
+        "properties": {
+          "magmom": 0.064
+        },
+        "label": "O",
+        "xyz": [
+          -3.5063399150829997,
+          -3.199247524730001,
+          -8.175551343092
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.24616,
+          0.305906,
+          0.915249
+        ],
+        "properties": {
+          "magmom": -0.064
+        },
+        "label": "O",
+        "xyz": [
+          -1.5764924324229999,
+          -0.5032947068329999,
+          -12.809912090394999
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.102115,
+          0.845757,
+          0.384716
+        ],
+        "properties": {
+          "magmom": 0.064
+        },
+        "label": "O",
+        "xyz": [
+          -4.256184183219,
+          1.7299328058379997,
+          -5.371173361869
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.256217,
+          0.154102,
+          0.115301
+        ],
+        "properties": {
+          "magmom": -0.064
+        },
+        "label": "O",
+        "xyz": [
+          -0.7776107906189998,
+          -0.966378420794,
+          -1.6116739085260001
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.897904,
+          0.154298,
+          0.615504
+        ],
+        "properties": {
+          "magmom": 0.064
+        },
+        "label": "O",
+        "xyz": [
+          -0.8023619161659999,
+          -4.427130105542001,
+          -8.61580811308
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.743778,
+          0.845858,
+          0.884483
+        ],
+        "properties": {
+          "magmom": -0.064
+        },
+        "label": "O",
+        "xyz": [
+          -4.2804384583049995,
+          -1.7309453368890004,
+          -12.369204350111
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.427978,
+          0.666736,
+          0.267664
+        ],
+        "properties": {
+          "magmom": 0.016
+        },
+        "label": "O",
+        "xyz": [
+          -3.3535005254479997,
+          -0.5103301283460004,
+          -3.735603061958
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.761182,
+          0.333166,
+          0.232292
+        ],
+        "properties": {
+          "magmom": -0.016
+        },
+        "label": "O",
+        "xyz": [
+          -1.680324209566,
+          -3.207054507116,
+          -3.246614425686
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.571737,
+          0.333324,
+          0.732419
+        ],
+        "properties": {
+          "magmom": 0.016
+        },
+        "label": "O",
+        "xyz": [
+          -1.705064145475,
+          -2.1852139715500005,
+          -10.249459930256
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.238553,
+          0.666796,
+          0.767614
+        ],
+        "properties": {
+          "magmom": -0.016
+        },
+        "label": "O",
+        "xyz": [
+          -3.377740949638,
+          0.511138362129,
+          -10.735971998913
+        ]
+      }
+    ]
+  },
+  "property_name": "summary",
+  "task_ids": [
+    "cwnku",
+    "fbttk",
+    "cwwsy",
+    "cwixc",
+    "etmwb",
+    "cwgyo",
+    "cuztt",
+    "culvf",
+    "cwsla",
+    "cwbme",
+    "cwlqz",
+    "cvovy",
+    "cxaha",
+    "cznuq",
+    "cwspw",
+    "cwlqv",
+    "cwexp",
+    "dclgu",
+    "cvmzr",
+    "cwdry",
+    "cuoft",
+    "cpttb",
+    "dniuz",
+    "cwbwx",
+    "cwqtt",
+    "cxcrv",
+    "cwvtx",
+    "cuzvf",
+    "cwpua",
+    "drice",
+    "cwyxs",
+    "cwjut",
+    "cwdni",
+    "cwzpl",
+    "cwiec",
+    "cwawi",
+    "cwhmt",
+    "cwbfc"
+  ],
+  "has_props": {
+    "materials": true,
+    "thermo": true,
+    "xas": false,
+    "grain_boundaries": false,
+    "electronic_structure": true,
+    "bandstructure": true,
+    "dos": true,
+    "magnetism": true,
+    "elasticity": false,
+    "dielectric": false,
+    "piezoelectric": false,
+    "surface_properties": false,
+    "oxi_states": true,
+    "provenance": true,
+    "charge_density": true,
+    "eos": false,
+    "phonon": false,
+    "absorption": false,
+    "insertion_electrodes": false,
+    "substrates": false,
+    "chemenv": true
+  },
+  "fields_not_requested": [
+    "xas",
+    "grain_boundaries",
+    "es_source_calc_id",
+    "bandstructure",
+    "dos"
+  ]
+}

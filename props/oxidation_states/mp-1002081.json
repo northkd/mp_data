@@ -1,0 +1,201 @@
+{
+  "builder_meta": {
+    "emmet_version": "0.87.0rc6",
+    "pymatgen_version": "2026.5.18",
+    "run_id": "1f091390-e796-4035-aa84-0d181d90d1e4",
+    "batch_id": "vasp6-statics",
+    "database_version": "2026.04.13",
+    "build_date": "2026-05-29T05:00:15.460000Z",
+    "license": "BY-C"
+  },
+  "nsites": 4,
+  "elements": [
+    "Cl",
+    "I",
+    "K",
+    "Na"
+  ],
+  "nelements": 4,
+  "composition": {
+    "K": 1.0,
+    "Na": 1.0,
+    "I": 1.0,
+    "Cl": 1.0
+  },
+  "composition_reduced": {
+    "K": 1.0,
+    "Na": 1.0,
+    "I": 1.0,
+    "Cl": 1.0
+  },
+  "formula_pretty": "KNaICl",
+  "formula_anonymous": "ABCD",
+  "chemsys": "Cl-I-K-Na",
+  "volume": 138.72504794036223,
+  "density": 2.686613501690639,
+  "density_atomic": 34.68126198509056,
+  "symmetry": {
+    "crystal_system": "Tetragonal",
+    "symbol": "P4/mmm",
+    "hall": "-P 4 2",
+    "number": 123,
+    "point_group": "4/mmm",
+    "symprec": 0.1,
+    "angle_tolerance": 5.0,
+    "version": "2.7.0"
+  },
+  "material_id": "mp-cfajp",
+  "deprecated": false,
+  "deprecation_reasons": null,
+  "last_updated": "2026-05-29T19:21:42.014000Z",
+  "origins": null,
+  "warnings": [],
+  "structure": {
+    "@module": "pymatgen.core.structure",
+    "@class": "Structure",
+    "charge": 0.0,
+    "lattice": {
+      "matrix": [
+        [
+          4.5104,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.5104,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          6.819064
+        ]
+      ],
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "a": 4.5104,
+      "b": 4.5104,
+      "c": 6.819064,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 138.72504794036223
+    },
+    "properties": {},
+    "sites": [
+      {
+        "species": [
+          {
+            "element": "K",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "properties": {
+          "magmom": -0.0
+        },
+        "label": "K",
+        "xyz": [
+          2.2552,
+          2.2552,
+          3.409532
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Na",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "properties": {
+          "magmom": -0.0
+        },
+        "label": "Na",
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "I",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.5,
+          0.5,
+          0.0
+        ],
+        "properties": {
+          "magmom": 0.0
+        },
+        "label": "I",
+        "xyz": [
+          2.2552,
+          2.2552,
+          0.0
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Cl",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.0,
+          0.0,
+          0.5
+        ],
+        "properties": {
+          "magmom": 0.0
+        },
+        "label": "Cl",
+        "xyz": [
+          0.0,
+          0.0,
+          3.409532
+        ]
+      }
+    ]
+  },
+  "property_name": "oxidation",
+  "possible_species": [
+    "K+",
+    "Na+",
+    "I-",
+    "Cl-"
+  ],
+  "possible_valences": [
+    1.0,
+    1.0,
+    -1.0,
+    -1.0
+  ],
+  "average_oxidation_states": {
+    "K": 1.0,
+    "Na": 1.0,
+    "I": -1.0,
+    "Cl": -1.0
+  },
+  "method": "Bond Valence Analysis",
+  "fields_not_requested": []
+}

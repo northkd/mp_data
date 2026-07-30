@@ -1,0 +1,224 @@
+{
+  "builder_meta": {
+    "emmet_version": "0.87.0rc6",
+    "pymatgen_version": "2026.5.18",
+    "run_id": "1f091390-e796-4035-aa84-0d181d90d1e4",
+    "batch_id": "vasp6-statics-jan2021",
+    "database_version": "2026.04.13",
+    "build_date": "2026-05-29T05:04:01.718000Z",
+    "license": "BY-C"
+  },
+  "nsites": 5,
+  "elements": [
+    "Li",
+    "Na",
+    "S",
+    "Zn"
+  ],
+  "nelements": 4,
+  "composition": {
+    "Na": 1.0,
+    "Li": 1.0,
+    "Zn": 1.0,
+    "S": 2.0
+  },
+  "composition_reduced": {
+    "Na": 1.0,
+    "Li": 1.0,
+    "Zn": 1.0,
+    "S": 2.0
+  },
+  "formula_pretty": "NaLiZnS2",
+  "formula_anonymous": "ABCD2",
+  "chemsys": "Li-Na-S-Zn",
+  "volume": 93.7076125766424,
+  "density": 2.825872679068808,
+  "density_atomic": 18.74152251532848,
+  "symmetry": {
+    "crystal_system": "Trigonal",
+    "symbol": "P3m1",
+    "hall": "P 3 -2\"",
+    "number": 156,
+    "point_group": "3m",
+    "symprec": 0.1,
+    "angle_tolerance": 5.0,
+    "version": "2.7.0"
+  },
+  "material_id": "mp-crmem",
+  "deprecated": false,
+  "deprecation_reasons": null,
+  "last_updated": "2026-05-29T19:24:49.807000Z",
+  "origins": null,
+  "warnings": [],
+  "structure": {
+    "@module": "pymatgen.core.structure",
+    "@class": "Structure",
+    "charge": 0.0,
+    "lattice": {
+      "matrix": [
+        [
+          1.991028,
+          -3.448562,
+          0.0
+        ],
+        [
+          1.991028,
+          3.448562,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          6.82385
+        ]
+      ],
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "a": 3.982056298525675,
+      "b": 3.982056298525675,
+      "c": 6.82385,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 120.00000495982427,
+      "volume": 93.7076125766424
+    },
+    "properties": {},
+    "sites": [
+      {
+        "species": [
+          {
+            "element": "Na",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.666667,
+          0.333333,
+          0.026164
+        ],
+        "properties": {
+          "magmom": -0.0
+        },
+        "label": "Na",
+        "xyz": [
+          1.991028,
+          -1.149522965708,
+          0.1785392114
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Li",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.0,
+          0.0,
+          0.356647
+        ],
+        "properties": {
+          "magmom": 0.0
+        },
+        "label": "Li",
+        "xyz": [
+          0.0,
+          0.0,
+          2.43370563095
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Zn",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.333333,
+          0.666667,
+          0.611634
+        ],
+        "properties": {
+          "magmom": 0.0
+        },
+        "label": "Zn",
+        "xyz": [
+          1.991028,
+          1.149522965708,
+          4.1736986709
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "S",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.0,
+          0.0,
+          0.733812
+        ],
+        "properties": {
+          "magmom": 0.0
+        },
+        "label": "S",
+        "xyz": [
+          0.0,
+          0.0,
+          5.007423016200001
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "S",
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.333333,
+          0.666667,
+          0.271743
+        ],
+        "properties": {
+          "magmom": -0.0
+        },
+        "label": "S",
+        "xyz": [
+          1.991028,
+          1.149522965708,
+          1.85433347055
+        ]
+      }
+    ]
+  },
+  "property_name": "oxidation",
+  "possible_species": [
+    "Na+",
+    "S2-",
+    "Zn2+",
+    "Li+"
+  ],
+  "possible_valences": [
+    1.0,
+    1.0,
+    2.0,
+    -2.0,
+    -2.0
+  ],
+  "average_oxidation_states": {
+    "Na": 1.0,
+    "Li": 1.0,
+    "Zn": 2.0,
+    "S": -2.0
+  },
+  "method": "Bond Valence Analysis",
+  "fields_not_requested": []
+}

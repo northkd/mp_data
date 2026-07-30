@@ -1,0 +1,347 @@
+{
+  "builder_meta": {
+    "emmet_version": "0.87.0rc6",
+    "pymatgen_version": "2026.5.18",
+    "run_id": "dbaf8672-f52c-441b-a665-e3e6ad350e40",
+    "batch_id": "production-r2scan",
+    "database_version": "2026.04.13",
+    "build_date": "2026-05-29T05:02:29.175000Z",
+    "license": "BY-C"
+  },
+  "nsites": 4,
+  "elements": [
+    "Na",
+    "O",
+    "Tm"
+  ],
+  "nelements": 3,
+  "composition": {
+    "Na": 1.0,
+    "Tm": 1.0,
+    "O": 2.0
+  },
+  "composition_reduced": {
+    "Na": 1.0,
+    "Tm": 1.0,
+    "O": 2.0
+  },
+  "formula_pretty": "NaTmO2",
+  "formula_anonymous": "ABC2",
+  "chemsys": "Na-O-Tm",
+  "volume": 52.50402588382256,
+  "density": 7.0819811844211,
+  "density_atomic": 13.12600647095564,
+  "symmetry": {
+    "crystal_system": "Trigonal",
+    "symbol": "R-3m",
+    "hall": "-R 3 2\"",
+    "number": 166,
+    "point_group": "-3m",
+    "symprec": 0.1,
+    "angle_tolerance": 5.0,
+    "version": "2.7.0"
+  },
+  "material_id": "mp-bqypt",
+  "deprecated": false,
+  "deprecation_reasons": null,
+  "last_updated": "2026-05-31T03:15:16.190000Z",
+  "origins": null,
+  "warnings": null,
+  "structure": {
+    "@module": "pymatgen.core.structure",
+    "@class": "Structure",
+    "charge": 0.0,
+    "lattice": {
+      "matrix": [
+        [
+          3.33224084,
+          -0.0,
+          0.0
+        ],
+        [
+          -1.66612042,
+          0.96193527,
+          5.45995572
+        ],
+        [
+          1.66612042,
+          -2.8858058,
+          -0.0
+        ]
+      ],
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "a": 3.33224084,
+      "b": 5.788988960256503,
+      "c": 3.3322413431884876,
+      "alpha": 106.72680237913053,
+      "beta": 60.00000499523865,
+      "gamma": 106.72680148258381,
+      "volume": 52.50402588382256
+    },
+    "properties": {},
+    "sites": [
+      {
+        "species": [
+          {
+            "element": "Na",
+            "oxidation_state": 1.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "properties": {},
+        "label": "Na",
+        "xyz": [
+          1.6661204199999997,
+          -0.9619352649999999,
+          2.72997786
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Tm",
+            "oxidation_state": 3.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          -0.0,
+          -0.0,
+          -0.0
+        ],
+        "properties": {},
+        "label": "Tm",
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "oxidation_state": -2.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.26304552,
+          0.78913556,
+          0.26304552
+        ],
+        "properties": {},
+        "label": "O",
+        "xyz": [
+          1.6661204200740798e-06,
+          -9.593048148071048e-07,
+          4.308645214677403
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "O",
+            "oxidation_state": -2.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.73695448,
+          0.21086444,
+          0.73695448
+        ],
+        "properties": {},
+        "label": "O",
+        "xyz": [
+          3.3322391738795796,
+          -1.9238695706951852,
+          1.1513105053225967
+        ]
+      }
+    ]
+  },
+  "property_name": "coord_environment",
+  "valences": [
+    1.0,
+    3.0,
+    -2.0,
+    -2.0
+  ],
+  "species": [
+    "Tm3+"
+  ],
+  "chemenv_symbol": [
+    "O:6"
+  ],
+  "chemenv_iupac": [
+    "OC-6"
+  ],
+  "chemenv_iucr": [
+    "[6o]"
+  ],
+  "chemenv_name": [
+    "Octahedron"
+  ],
+  "chemenv_name_with_alternatives": [
+    "Octahedron (also known as Square dipyramid, Square bipyramid, Triangular antiprism, Trigonal antiprism)"
+  ],
+  "csm": [
+    0.5797041470941486
+  ],
+  "method": "Simplest ChemenvStrategy using fixed angle and distance parameters for the definition of neighbors in the Voronoi approach. The coordination environment is then given as the one with the lowest continuous symmetry measure. Options: distance_cutoff=1.4 angle_cutoff=0.3 additional_condition=1 continuous_symmetry_measure_cutoff=10.0",
+  "mol_from_site_environments": [
+    {
+      "@module": "pymatgen.core.structure",
+      "@class": "Molecule",
+      "charge": 0.0,
+      "spin_multiplicity": 2,
+      "sites": [
+        {
+          "name": "Tm3+",
+          "species": [
+            {
+              "element": "Tm",
+              "oxidation_state": 3.0,
+              "spin": null,
+              "occu": 1.0
+            }
+          ],
+          "xyz": [
+            3.455200990545117e-17,
+            -1.3409978102569952e-17,
+            4.022993430770986e-17
+          ],
+          "properties": {},
+          "label": "Tm"
+        },
+        {
+          "name": "O2-",
+          "species": [
+            {
+              "element": "O",
+              "oxidation_state": -2.0,
+              "spin": null,
+              "occu": 1.0
+            }
+          ],
+          "xyz": [
+            -1.66611875387958,
+            -0.9619362293048148,
+            -1.151310505322597
+          ],
+          "properties": {},
+          "label": "O"
+        },
+        {
+          "name": "O2-",
+          "species": [
+            {
+              "element": "O",
+              "oxidation_state": -2.0,
+              "spin": null,
+              "occu": 1.0
+            }
+          ],
+          "xyz": [
+            1.66612208612042,
+            -0.9619362293048148,
+            -1.151310505322597
+          ],
+          "properties": {},
+          "label": "O"
+        },
+        {
+          "name": "O2-",
+          "species": [
+            {
+              "element": "O",
+              "oxidation_state": -2.0,
+              "spin": null,
+              "occu": 1.0
+            }
+          ],
+          "xyz": [
+            -1.6661204200351538e-06,
+            -1.9238695706951852,
+            1.1513105053225967
+          ],
+          "properties": {},
+          "label": "O"
+        },
+        {
+          "name": "O2-",
+          "species": [
+            {
+              "element": "O",
+              "oxidation_state": -2.0,
+              "spin": null,
+              "occu": 1.0
+            }
+          ],
+          "xyz": [
+            1.6661187538795796,
+            0.9619362293048149,
+            1.1513105053225967
+          ],
+          "properties": {},
+          "label": "O"
+        },
+        {
+          "name": "O2-",
+          "species": [
+            {
+              "element": "O",
+              "oxidation_state": -2.0,
+              "spin": null,
+              "occu": 1.0
+            }
+          ],
+          "xyz": [
+            -1.66612208612042,
+            0.9619362293048149,
+            1.1513105053225967
+          ],
+          "properties": {},
+          "label": "O"
+        },
+        {
+          "name": "O2-",
+          "species": [
+            {
+              "element": "O",
+              "oxidation_state": -2.0,
+              "spin": null,
+              "occu": 1.0
+            }
+          ],
+          "xyz": [
+            1.6661204199192811e-06,
+            1.9238695706951854,
+            -1.151310505322597
+          ],
+          "properties": {},
+          "label": "O"
+        }
+      ],
+      "properties": {}
+    }
+  ],
+  "wyckoff_positions": [
+    "1a"
+  ],
+  "fields_not_requested": []
+}

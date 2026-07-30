@@ -1,0 +1,241 @@
+{
+  "builder_meta": {
+    "emmet_version": "0.87.0rc6",
+    "pymatgen_version": "2026.5.18",
+    "run_id": "dbaf8672-f52c-441b-a665-e3e6ad350e40",
+    "batch_id": "production-r2scan",
+    "database_version": "2026.04.13",
+    "build_date": "2026-05-29T05:03:04.559000Z",
+    "license": "BY-C"
+  },
+  "nsites": 6,
+  "elements": [
+    "Er",
+    "F",
+    "Na"
+  ],
+  "nelements": 3,
+  "composition": {
+    "Na": 1.0,
+    "Er": 1.0,
+    "F": 4.0
+  },
+  "composition_reduced": {
+    "Na": 1.0,
+    "Er": 1.0,
+    "F": 4.0
+  },
+  "formula_pretty": "NaErF4",
+  "formula_anonymous": "ABC4",
+  "chemsys": "Er-F-Na",
+  "volume": 75.58922358943173,
+  "density": 5.848795056389196,
+  "density_atomic": 12.598203931571954,
+  "symmetry": {
+    "crystal_system": "Tetragonal",
+    "symbol": "P4/mmm",
+    "hall": "-P 4 2",
+    "number": 123,
+    "point_group": "4/mmm",
+    "symprec": 0.1,
+    "angle_tolerance": 5.0,
+    "version": "2.7.0"
+  },
+  "material_id": "mp-crmgy",
+  "deprecated": false,
+  "deprecation_reasons": null,
+  "last_updated": "2026-05-31T03:19:47.568000Z",
+  "origins": null,
+  "warnings": null,
+  "structure": {
+    "@module": "pymatgen.core.structure",
+    "@class": "Structure",
+    "charge": 0.0,
+    "lattice": {
+      "matrix": [
+        [
+          3.73762295,
+          -0.0,
+          -0.0
+        ],
+        [
+          -0.0,
+          3.73762295,
+          -0.0
+        ],
+        [
+          0.0,
+          -0.0,
+          5.41089254
+        ]
+      ],
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "a": 3.73762295,
+      "b": 3.73762295,
+      "c": 5.41089254,
+      "alpha": 90.0,
+      "beta": 90.0,
+      "gamma": 90.0,
+      "volume": 75.58922358943173
+    },
+    "properties": {},
+    "sites": [
+      {
+        "species": [
+          {
+            "element": "Na",
+            "oxidation_state": 1.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          -0.0,
+          0.0,
+          -0.0
+        ],
+        "properties": {},
+        "label": "Na",
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Er",
+            "oxidation_state": 3.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "properties": {},
+        "label": "Er",
+        "xyz": [
+          1.868811475,
+          1.868811475,
+          2.70544627
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "F",
+            "oxidation_state": -1.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.5,
+          0.0,
+          0.73128112
+        ],
+        "properties": {},
+        "label": "F",
+        "xyz": [
+          1.868811475,
+          0.0,
+          3.956883556850845
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "F",
+            "oxidation_state": -1.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.0,
+          0.5,
+          0.26871888
+        ],
+        "properties": {},
+        "label": "F",
+        "xyz": [
+          0.0,
+          1.868811475,
+          1.4540089831491552
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "F",
+            "oxidation_state": -1.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.5,
+          -0.0,
+          0.26871888
+        ],
+        "properties": {},
+        "label": "F",
+        "xyz": [
+          1.868811475,
+          0.0,
+          1.4540089831491552
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "F",
+            "oxidation_state": -1.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          -0.0,
+          0.5,
+          0.73128112
+        ],
+        "properties": {},
+        "label": "F",
+        "xyz": [
+          0.0,
+          1.868811475,
+          3.956883556850845
+        ]
+      }
+    ]
+  },
+  "property_name": "coord_environment",
+  "valences": [
+    1.0,
+    3.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0
+  ],
+  "species": [],
+  "chemenv_symbol": [],
+  "chemenv_iupac": [],
+  "chemenv_iucr": [],
+  "chemenv_name": [],
+  "chemenv_name_with_alternatives": [],
+  "csm": [],
+  "method": "Simplest ChemenvStrategy using fixed angle and distance parameters for the definition of neighbors in the Voronoi approach. The coordination environment is then given as the one with the lowest continuous symmetry measure. Options: distance_cutoff=1.4 angle_cutoff=0.3 additional_condition=1 continuous_symmetry_measure_cutoff=10.0",
+  "mol_from_site_environments": [],
+  "wyckoff_positions": [],
+  "fields_not_requested": []
+}

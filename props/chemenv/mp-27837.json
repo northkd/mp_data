@@ -1,0 +1,275 @@
+{
+  "builder_meta": {
+    "emmet_version": "0.87.0rc6",
+    "pymatgen_version": "2026.5.18",
+    "run_id": "dbaf8672-f52c-441b-a665-e3e6ad350e40",
+    "batch_id": "production-r2scan",
+    "database_version": "2026.04.13",
+    "build_date": "2026-05-29T05:02:48.028000Z",
+    "license": "BY-C"
+  },
+  "nsites": 4,
+  "elements": [
+    "F",
+    "H",
+    "Na"
+  ],
+  "nelements": 3,
+  "composition": {
+    "Na": 1.0,
+    "H": 1.0,
+    "F": 2.0
+  },
+  "composition_reduced": {
+    "Na": 1.0,
+    "H": 1.0,
+    "F": 2.0
+  },
+  "formula_pretty": "NaHF2",
+  "formula_anonymous": "ABC2",
+  "chemsys": "F-H-Na",
+  "volume": 45.61410383082459,
+  "density": 2.256852742897624,
+  "density_atomic": 11.403525957706147,
+  "symmetry": {
+    "crystal_system": "Trigonal",
+    "symbol": "R-3m",
+    "hall": "-R 3 2\"",
+    "number": 166,
+    "point_group": "-3m",
+    "symprec": 0.1,
+    "angle_tolerance": 5.0,
+    "version": "2.7.0"
+  },
+  "material_id": "mp-bper",
+  "deprecated": false,
+  "deprecation_reasons": null,
+  "last_updated": "2026-05-31T03:15:05.276000Z",
+  "origins": null,
+  "warnings": null,
+  "structure": {
+    "@module": "pymatgen.core.structure",
+    "@class": "Structure",
+    "charge": 0.0,
+    "lattice": {
+      "matrix": [
+        [
+          3.19477085,
+          0.00327338,
+          3.8114308
+        ],
+        [
+          1.38837719,
+          2.87732019,
+          3.8114308
+        ],
+        [
+          0.00520828,
+          0.00327337,
+          4.97328245
+        ]
+      ],
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "a": 4.9732862618408555,
+      "b": 4.973285376959839,
+      "c": 4.973286254440792,
+      "alpha": 39.909976738158036,
+      "beta": 39.90998753486614,
+      "gamma": 39.90998123350375,
+      "volume": 45.6141038308246
+    },
+    "properties": {},
+    "sites": [
+      {
+        "species": [
+          {
+            "element": "Na",
+            "oxidation_state": 1.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "properties": {},
+        "label": "Na",
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "H",
+            "oxidation_state": 1.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "properties": {},
+        "label": "H",
+        "xyz": [
+          2.29417816,
+          1.44193347,
+          6.298072025
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "F",
+            "oxidation_state": -1.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.58291882,
+          0.58291882,
+          0.58291882
+        ],
+        "properties": {},
+        "label": "F",
+        "xyz": [
+          2.674639251793942,
+          1.6810603137018105,
+          7.34252942617602
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "F",
+            "oxidation_state": -1.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.41708118,
+          0.41708118,
+          0.41708118
+        ],
+        "properties": {},
+        "label": "F",
+        "xyz": [
+          1.9137170682060574,
+          1.202806626298189,
+          5.253614623823979
+        ]
+      }
+    ]
+  },
+  "property_name": "coord_environment",
+  "valences": [
+    1.0,
+    1.0,
+    -1.0,
+    -1.0
+  ],
+  "species": [
+    "H+"
+  ],
+  "chemenv_symbol": [
+    "L:2"
+  ],
+  "chemenv_iupac": [
+    "L-2"
+  ],
+  "chemenv_iucr": [
+    "[2l]"
+  ],
+  "chemenv_name": [
+    "Linear"
+  ],
+  "chemenv_name_with_alternatives": [
+    "Linear"
+  ],
+  "csm": [
+    2.583777820441481e-29
+  ],
+  "method": "Simplest ChemenvStrategy using fixed angle and distance parameters for the definition of neighbors in the Voronoi approach. The coordination environment is then given as the one with the lowest continuous symmetry measure. Options: distance_cutoff=1.4 angle_cutoff=0.3 additional_condition=1 continuous_symmetry_measure_cutoff=10.0",
+  "mol_from_site_environments": [
+    {
+      "@module": "pymatgen.core.structure",
+      "@class": "Molecule",
+      "charge": 0.0,
+      "spin_multiplicity": 2,
+      "sites": [
+        {
+          "name": "H+",
+          "species": [
+            {
+              "element": "H",
+              "oxidation_state": 1.0,
+              "spin": null,
+              "occu": 1.0
+            }
+          ],
+          "xyz": [
+            0.0,
+            4.440892098500626e-16,
+            1.7763568394002505e-15
+          ],
+          "properties": {},
+          "label": "H"
+        },
+        {
+          "name": "F-",
+          "species": [
+            {
+              "element": "F",
+              "oxidation_state": -1.0,
+              "spin": null,
+              "occu": 1.0
+            }
+          ],
+          "xyz": [
+            0.3804610917939426,
+            0.23912684370181103,
+            1.0444574011760226
+          ],
+          "properties": {},
+          "label": "F"
+        },
+        {
+          "name": "F-",
+          "species": [
+            {
+              "element": "F",
+              "oxidation_state": -1.0,
+              "spin": null,
+              "occu": 1.0
+            }
+          ],
+          "xyz": [
+            -0.38046109179394194,
+            -0.23912684370181037,
+            -1.044457401176019
+          ],
+          "properties": {},
+          "label": "F"
+        }
+      ],
+      "properties": {}
+    }
+  ],
+  "wyckoff_positions": [
+    "1b"
+  ],
+  "fields_not_requested": []
+}

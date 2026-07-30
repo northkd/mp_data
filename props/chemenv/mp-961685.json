@@ -1,0 +1,288 @@
+{
+  "builder_meta": {
+    "emmet_version": "0.87.0rc6",
+    "pymatgen_version": "2026.5.18",
+    "run_id": "dbaf8672-f52c-441b-a665-e3e6ad350e40",
+    "batch_id": "production-r2scan",
+    "database_version": "2026.04.13",
+    "build_date": "2026-05-29T05:03:36.730000Z",
+    "license": "BY-C"
+  },
+  "nsites": 3,
+  "elements": [
+    "As",
+    "Ca",
+    "Na"
+  ],
+  "nelements": 3,
+  "composition": {
+    "Na": 1.0,
+    "Ca": 1.0,
+    "As": 1.0
+  },
+  "composition_reduced": {
+    "Na": 1.0,
+    "Ca": 1.0,
+    "As": 1.0
+  },
+  "formula_pretty": "NaCaAs",
+  "formula_anonymous": "ABC",
+  "chemsys": "As-Ca-Na",
+  "volume": 82.89801505073483,
+  "density": 2.764079919704158,
+  "density_atomic": 27.632671683578277,
+  "symmetry": {
+    "crystal_system": "Cubic",
+    "symbol": "F-43m",
+    "hall": "F -4 2 3",
+    "number": 216,
+    "point_group": "-43m",
+    "symprec": 0.1,
+    "angle_tolerance": 5.0,
+    "version": "2.7.0"
+  },
+  "material_id": "mp-ccspx",
+  "deprecated": false,
+  "deprecation_reasons": null,
+  "last_updated": "2026-05-31T03:16:40.080000Z",
+  "origins": null,
+  "warnings": null,
+  "structure": {
+    "@module": "pymatgen.core.structure",
+    "@class": "Structure",
+    "charge": 0.0,
+    "lattice": {
+      "matrix": [
+        [
+          4.23854652,
+          -1e-08,
+          2.44712566
+        ],
+        [
+          1.41284816,
+          3.99614034,
+          2.44712566
+        ],
+        [
+          -1e-08,
+          -0.0,
+          4.89425333
+        ]
+      ],
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "a": 4.894251791442135,
+      "b": 4.8942518872674645,
+      "c": 4.89425333,
+      "alpha": 60.000003873123525,
+      "beta": 60.000003303495276,
+      "gamma": 60.000010842919856,
+      "volume": 82.89801505073483
+    },
+    "properties": {},
+    "sites": [
+      {
+        "species": [
+          {
+            "element": "Na",
+            "oxidation_state": 1.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "properties": {},
+        "label": "Na",
+        "xyz": [
+          2.825697335,
+          1.9980701650000001,
+          4.894252325
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Ca",
+            "oxidation_state": 2.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.0,
+          0.0,
+          -0.0
+        ],
+        "properties": {},
+        "label": "Ca",
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "As",
+            "oxidation_state": -3.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.25,
+          0.25,
+          0.25
+        ],
+        "properties": {},
+        "label": "As",
+        "xyz": [
+          1.4128486675,
+          0.9990350825000001,
+          2.4471261625
+        ]
+      }
+    ]
+  },
+  "property_name": "coord_environment",
+  "valences": [
+    1.0,
+    2.0,
+    -3.0
+  ],
+  "species": [
+    "Ca2+"
+  ],
+  "chemenv_symbol": [
+    "T:4"
+  ],
+  "chemenv_iupac": [
+    "T-4"
+  ],
+  "chemenv_iucr": [
+    "[4t]"
+  ],
+  "chemenv_name": [
+    "Tetrahedron"
+  ],
+  "chemenv_name_with_alternatives": [
+    "Tetrahedron (also known as Triangular pyramid, Trigonal pyramid)"
+  ],
+  "csm": [
+    3.2883170549421495e-12
+  ],
+  "method": "Simplest ChemenvStrategy using fixed angle and distance parameters for the definition of neighbors in the Voronoi approach. The coordination environment is then given as the one with the lowest continuous symmetry measure. Options: distance_cutoff=1.4 angle_cutoff=0.3 additional_condition=1 continuous_symmetry_measure_cutoff=10.0",
+  "mol_from_site_environments": [
+    {
+      "@module": "pymatgen.core.structure",
+      "@class": "Molecule",
+      "charge": 0.0,
+      "spin_multiplicity": 1,
+      "sites": [
+        {
+          "name": "Ca2+",
+          "species": [
+            {
+              "element": "Ca",
+              "oxidation_state": 2.0,
+              "spin": null,
+              "occu": 1.0
+            }
+          ],
+          "xyz": [
+            1.2547684261684275e-16,
+            4.182561420561425e-17,
+            8.36512284112285e-17
+          ],
+          "properties": {},
+          "label": "Ca"
+        },
+        {
+          "name": "As3-",
+          "species": [
+            {
+              "element": "As",
+              "oxidation_state": -3.0,
+              "spin": null,
+              "occu": 1.0
+            }
+          ],
+          "xyz": [
+            1.4128486675000003,
+            0.9990350825000001,
+            2.4471261625
+          ],
+          "properties": {},
+          "label": "As"
+        },
+        {
+          "name": "As3-",
+          "species": [
+            {
+              "element": "As",
+              "oxidation_state": -3.0,
+              "spin": null,
+              "occu": 1.0
+            }
+          ],
+          "xyz": [
+            5.0750000007908e-07,
+            -2.9971052575000003,
+            5.02499999916302e-07
+          ],
+          "properties": {},
+          "label": "As"
+        },
+        {
+          "name": "As3-",
+          "species": [
+            {
+              "element": "As",
+              "oxidation_state": -3.0,
+              "spin": null,
+              "occu": 1.0
+            }
+          ],
+          "xyz": [
+            -2.8256978525000003,
+            0.9990350925,
+            5.02499999916302e-07
+          ],
+          "properties": {},
+          "label": "As"
+        },
+        {
+          "name": "As3-",
+          "species": [
+            {
+              "element": "As",
+              "oxidation_state": -3.0,
+              "spin": null,
+              "occu": 1.0
+            }
+          ],
+          "xyz": [
+            1.4128486775000002,
+            0.9990350825000001,
+            -2.4471271674999997
+          ],
+          "properties": {},
+          "label": "As"
+        }
+      ],
+      "properties": {}
+    }
+  ],
+  "wyckoff_positions": [
+    "1a"
+  ],
+  "fields_not_requested": []
+}

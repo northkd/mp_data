@@ -1,0 +1,347 @@
+{
+  "builder_meta": {
+    "emmet_version": "0.87.0rc6",
+    "pymatgen_version": "2026.5.18",
+    "run_id": "dbaf8672-f52c-441b-a665-e3e6ad350e40",
+    "batch_id": "production-r2scan",
+    "database_version": "2026.04.13",
+    "build_date": "2026-05-29T05:03:18.296000Z",
+    "license": "BY-C"
+  },
+  "nsites": 4,
+  "elements": [
+    "In",
+    "Na",
+    "Se"
+  ],
+  "nelements": 3,
+  "composition": {
+    "Na": 1.0,
+    "In": 1.0,
+    "Se": 2.0
+  },
+  "composition_reduced": {
+    "Na": 1.0,
+    "In": 1.0,
+    "Se": 2.0
+  },
+  "formula_pretty": "NaInSe2",
+  "formula_anonymous": "ABC2",
+  "chemsys": "In-Na-Se",
+  "volume": 96.18797473292786,
+  "density": 5.105290094915506,
+  "density_atomic": 24.046993683231964,
+  "symmetry": {
+    "crystal_system": "Trigonal",
+    "symbol": "R-3m",
+    "hall": "-R 3 2\"",
+    "number": 166,
+    "point_group": "-3m",
+    "symprec": 0.1,
+    "angle_tolerance": 5.0,
+    "version": "2.7.0"
+  },
+  "material_id": "mp-bhgj",
+  "deprecated": false,
+  "deprecation_reasons": null,
+  "last_updated": "2026-05-31T03:19:51.190000Z",
+  "origins": null,
+  "warnings": null,
+  "structure": {
+    "@module": "pymatgen.core.structure",
+    "@class": "Structure",
+    "charge": 0.0,
+    "lattice": {
+      "matrix": [
+        [
+          3.83291715,
+          -0.00880891,
+          6.24287955
+        ],
+        [
+          1.75686193,
+          3.40657585,
+          6.24287956
+        ],
+        [
+          -0.0144931,
+          -0.00880892,
+          7.32561187
+        ]
+      ],
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "a": 7.325631478000221,
+      "b": 7.325630898670253,
+      "c": 7.325631502942533,
+      "alpha": 31.661837705480703,
+      "beta": 31.661850540730573,
+      "gamma": 31.66183502583049,
+      "volume": 96.18797473292786
+    },
+    "properties": {},
+    "sites": [
+      {
+        "species": [
+          {
+            "element": "Na",
+            "oxidation_state": 1.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "properties": {},
+        "label": "Na",
+        "xyz": [
+          2.78764299,
+          1.69447901,
+          9.90568549
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "In",
+            "oxidation_state": 3.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "properties": {},
+        "label": "In",
+        "xyz": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Se",
+            "oxidation_state": -2.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.74074183,
+          0.74074183,
+          0.74074183
+        ],
+        "properties": {},
+        "label": "Se",
+        "xyz": [
+          4.1298475395985434,
+          2.5103429655279768,
+          14.675111194534095
+        ]
+      },
+      {
+        "species": [
+          {
+            "element": "Se",
+            "oxidation_state": -2.0,
+            "spin": null,
+            "occu": 1.0
+          }
+        ],
+        "abc": [
+          0.25925817,
+          0.25925817,
+          0.25925817
+        ],
+        "properties": {},
+        "label": "Se",
+        "xyz": [
+          1.4454384404014566,
+          0.8786150544720234,
+          5.1362597854659064
+        ]
+      }
+    ]
+  },
+  "property_name": "coord_environment",
+  "valences": [
+    1.0,
+    3.0,
+    -2.0,
+    -2.0
+  ],
+  "species": [
+    "In3+"
+  ],
+  "chemenv_symbol": [
+    "O:6"
+  ],
+  "chemenv_iupac": [
+    "OC-6"
+  ],
+  "chemenv_iucr": [
+    "[6o]"
+  ],
+  "chemenv_name": [
+    "Octahedron"
+  ],
+  "chemenv_name_with_alternatives": [
+    "Octahedron (also known as Square dipyramid, Square bipyramid, Triangular antiprism, Trigonal antiprism)"
+  ],
+  "csm": [
+    0.06489564782006124
+  ],
+  "method": "Simplest ChemenvStrategy using fixed angle and distance parameters for the definition of neighbors in the Voronoi approach. The coordination environment is then given as the one with the lowest continuous symmetry measure. Options: distance_cutoff=1.4 angle_cutoff=0.3 additional_condition=1 continuous_symmetry_measure_cutoff=10.0",
+  "mol_from_site_environments": [
+    {
+      "@module": "pymatgen.core.structure",
+      "@class": "Molecule",
+      "charge": 0.0,
+      "spin_multiplicity": 2,
+      "sites": [
+        {
+          "name": "In3+",
+          "species": [
+            {
+              "element": "In",
+              "oxidation_state": 3.0,
+              "spin": null,
+              "occu": 1.0
+            }
+          ],
+          "xyz": [
+            -7.243315948881204e-17,
+            -7.243315948881204e-17,
+            -5.794652759104963e-16
+          ],
+          "properties": {},
+          "label": "In"
+        },
+        {
+          "name": "Se2-",
+          "species": [
+            {
+              "element": "Se",
+              "oxidation_state": -2.0,
+              "spin": null,
+              "occu": 1.0
+            }
+          ],
+          "xyz": [
+            -1.4599315404014563,
+            -0.8874239744720233,
+            2.1893520845340944
+          ],
+          "properties": {},
+          "label": "Se"
+        },
+        {
+          "name": "Se2-",
+          "species": [
+            {
+              "element": "Se",
+              "oxidation_state": -2.0,
+              "spin": null,
+              "occu": 1.0
+            }
+          ],
+          "xyz": [
+            0.3114234895985435,
+            2.5279607955279766,
+            1.106619774534094
+          ],
+          "properties": {},
+          "label": "Se"
+        },
+        {
+          "name": "Se2-",
+          "species": [
+            {
+              "element": "Se",
+              "oxidation_state": -2.0,
+              "spin": null,
+              "occu": 1.0
+            }
+          ],
+          "xyz": [
+            -2.3874787095985432,
+            0.8874239644720232,
+            -1.106619764534093
+          ],
+          "properties": {},
+          "label": "Se"
+        },
+        {
+          "name": "Se2-",
+          "species": [
+            {
+              "element": "Se",
+              "oxidation_state": -2.0,
+              "spin": null,
+              "occu": 1.0
+            }
+          ],
+          "xyz": [
+            2.3874787095985437,
+            -0.8874239644720233,
+            1.1066197645340932
+          ],
+          "properties": {},
+          "label": "Se"
+        },
+        {
+          "name": "Se2-",
+          "species": [
+            {
+              "element": "Se",
+              "oxidation_state": -2.0,
+              "spin": null,
+              "occu": 1.0
+            }
+          ],
+          "xyz": [
+            -0.3114234895985432,
+            -2.527960795527976,
+            -1.1066197745340942
+          ],
+          "properties": {},
+          "label": "Se"
+        },
+        {
+          "name": "Se2-",
+          "species": [
+            {
+              "element": "Se",
+              "oxidation_state": -2.0,
+              "spin": null,
+              "occu": 1.0
+            }
+          ],
+          "xyz": [
+            1.4599315404014566,
+            0.8874239744720233,
+            -2.1893520845340935
+          ],
+          "properties": {},
+          "label": "Se"
+        }
+      ],
+      "properties": {}
+    }
+  ],
+  "wyckoff_positions": [
+    "1a"
+  ],
+  "fields_not_requested": []
+}
